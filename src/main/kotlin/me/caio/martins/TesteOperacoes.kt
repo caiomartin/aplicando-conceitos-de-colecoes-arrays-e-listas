@@ -9,8 +9,8 @@ fun main() {
 
     println("-----------------------------------------")
 
-    println("Maior Salario: " + salarios.max())
-    println("Menor Salario: " + salarios.min())
+    println("Maior Salario: " + salarios.maxOrNull())
+    println("Menor Salario: " + salarios.minOrNull())
     println("Media Salario: " + salarios.average())
 
     println("-----------------------------------------")
